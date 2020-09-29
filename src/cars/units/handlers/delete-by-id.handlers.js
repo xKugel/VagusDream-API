@@ -9,7 +9,7 @@ const deleteById = async (req, res, next) => {
   const query = { _id: req.params.id }
   try {
     await BusinessRules.deleteById( req, query  )
-    return res.send( 200 , 'removeu')
+    return res.send( 200 , 'Document removed')
   } catch (e) {
     console.log(e);
     return res.send( 404 , 'Document Not Found' )
