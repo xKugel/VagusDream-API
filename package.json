@@ -35,7 +35,7 @@
     "is-directory": "^0.3.1",
     "joi": "^13.6.0",
     "jsonwebtoken": "^8.1.0",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.20",
     "moment": "^2.20.1",
     "mongoose": "^5.0.0-rc2",
     "pluralize": "^7.0.0",
